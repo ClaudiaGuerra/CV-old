@@ -1,8 +1,9 @@
 ----------------- Structure -------------------------
 
 body{
-    margin: 0px;
+    margin: 10px;
     background-color: black;
+
 }
 
 .global-container {
@@ -11,6 +12,7 @@ body{
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 5px;
     grid-row-gap: 9px;
+    margin: 10px;
     } 
 
 .about {
@@ -42,11 +44,28 @@ body{
     margin-bottom: 9px;
 }
 
+
+/* ----------------------- EXPERIENCE ---------------------------- */
+
+.card img{
+    border-radius: 10px;
+}
+
+
+
+/* ------------------------ CONTACT ------------------------------- */
+
+
+
+/* ------------------------ FOOTER -------------------------------- */
+
 footer{
     background-color: #ffffff;
     border-radius: 20px;
     padding: 20px;
     border: 1px solid black;
     text-align: center;
+    margin: 10px;
 }
+
 
