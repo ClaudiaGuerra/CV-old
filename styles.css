@@ -69,6 +69,10 @@ footer {
     z-index: 1;
 }
 
+.about p{
+    text-align: justify;
+}
+
 .info {
     display: flex;
     justify-content: center;
@@ -120,10 +124,17 @@ footer {
 
 /* ----------------------- EXPERIENCE ---------------------------- */
 
+.accordion-body p{
+    text-align: justify;
+}
+
+.accordion-body h4, h5,h6 {
+    text-align: left;
+}
 /* ----------------------- SKILLS ---------------------------- */
 
-.col img{
-    height: 50px;
+.col .logo img{
+    height: 150px;
 }
 
 
