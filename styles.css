@@ -58,7 +58,15 @@ footer {
     background-color: white;
     border: 1px solid black;
     z-index: 1;
+    padding: 0px;
+    padding-top: 5px;
 }
+
+/* .portfolio img{
+    height: 141px;
+    width: 220px;
+    border-radius: 15px;
+} */
 
 .contact {
     grid-area: 4 / 4 / 5 / 10;
@@ -105,6 +113,12 @@ footer {
 
 
 /* ---------------------- PORTFOLIO ------------------------------*/
+
+/* .portfolio .card-img-top a, img{
+    height: 141px;
+    width: 256px;
+    border-radius: 15px;
+} */
 /*----------------------------------- FLIPPING CARDS ------------------------*/ 
 
 
