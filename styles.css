@@ -22,15 +22,7 @@ body {
     margin: 5px;
 }
 
-footer {
-    padding: 20px;
-    text-align: center;
-    background: rgb(253, 247, 255);
-}
 
-footer p {
-    text-align: center;
-}
 
 .background {
     background-image: url("src/images/background2.png");
@@ -236,7 +228,22 @@ p {
 
 /* ------------------------ FOOTER -------------------------------- */
 
-.ft img {
+footer .ft img {
     height: 25px;
     width: 25px;
+}
+
+footer .ft{
+    display: inline-block;
+    flex-direction: column;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: rgb(253, 247, 255);
+}
+
+footer p {
+    text-align: center;
 }
