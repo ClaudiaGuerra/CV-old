@@ -1,8 +1,5 @@
 body {
     margin: 0px;
-
-
-
 }
 
 .global-container {
@@ -31,10 +28,9 @@ footer {
     background: rgb(253, 247, 255);
 }
 
-footer p{
+footer p {
     text-align: center;
 }
-
 
 .background {
     background-image: url("src/images/background2.png");
@@ -44,19 +40,15 @@ footer p{
     max-width: none;
 }
 
-
 /* ----------------- NAV BAR ----------------*/
 .navbar {
     background: rgb(253, 247, 255);
-
 }
 
 .navbar .container-fluid img {
     height: 30px;
     border-radius: 20px;
 }
-
-
 
 /* ----------------------------ABOUT ------------------------ */
 
@@ -133,7 +125,10 @@ footer p{
     text-align: justify;
 }
 
-.accordion-body h4,h5,h6,p {
+.accordion-body h4,
+h5,
+h6,
+p {
     text-align: left;
     color: rgb(106, 9, 133);
 }
@@ -160,17 +155,23 @@ footer p{
     height: 150px;
 }
 
-.logo p{
-    text-align: center;
+.col .logo p{
+    text-align: right;
 }
 
-.col-2 img{
-    height:60px;
+.row img {
+    height: 60px;
+    display: block;
 }
 
 /* ------------------- PROJECTS -------------------------------*/
-.card-body h5{
-text-align: center;
+.card-body h5 {
+    text-align: center;
+}
+
+/* ---------------------CERTIFICATIONS --------------------------*/
+.row h5 {
+    color: blue
 }
 
 /* ------------------------ CONTACT ------------------------------- */
@@ -190,7 +191,6 @@ text-align: center;
     border: none;
 }
 
-
 .form-control:focus {
     border-color: rgb(171, 56, 209);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(171, 56, 209);
@@ -204,8 +204,8 @@ text-align: center;
     z-index: 1;
 }
 
-.btn-primary{
-    --bs-btn-active-bg:rgb(116, 57, 136);
+.btn-primary {
+    --bs-btn-active-bg: rgb(116, 57, 136);
 }
 
 /*------------------------- MEDIA -------------------------------------*/
@@ -229,7 +229,7 @@ text-align: center;
 
 /* ------------------------ FOOTER -------------------------------- */
 
-.col img {
+.ft img {
     height: 25px;
     width: 25px;
 }
