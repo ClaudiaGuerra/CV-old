@@ -164,6 +164,13 @@ p {
     display: block;
 }
 
+
+/* ----------------- EDUCATION ---------------------- */
+
+.ed h5, a{
+    text-decoration: none;
+    color: #0000EE;
+}
 /* ------------------- PROJECTS -------------------------------*/
 .card-body h5 {
     text-align: center;
@@ -171,7 +178,7 @@ p {
 
 /* ---------------------CERTIFICATIONS --------------------------*/
 .row h5 {
-    color: blue
+    color: #0000EE
 }
 
 /* ------------------------ CONTACT ------------------------------- */
