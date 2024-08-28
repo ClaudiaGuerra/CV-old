@@ -138,6 +138,7 @@ footer {
     --bs-accordion-btn-color: rgb(106, 9, 133);
     --bs-accordion-btn-focus-bg: rgb(219, 171, 233);
 
+
 }
 
 .accordion-button:not(.collapsed) {
