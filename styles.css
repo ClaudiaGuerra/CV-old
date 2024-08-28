@@ -159,19 +159,28 @@ p {
 
 /* ----------------- EDUCATION ---------------------- */
 
-.ed h5, a{
-    text-decoration: none;
-    color: #0000EE;
+.ed{
+    color: #0a06eb;
 }
+.ed a{
+     color: #0a06eb;
+}
+
+
 /* ------------------- PROJECTS -------------------------------*/
 .card-body h5 {
     text-align: center;
 }
 
 /* ---------------------CERTIFICATIONS --------------------------*/
-.row h5 {
+/* .row h5 {
     color: #0000EE
-}
+} */
+
+/* .row .ed a {
+    text-decoration: none;
+    color: rgb(130, 209, 56);
+} */
 
 /* ------------------------ CONTACT ------------------------------- */
 .contact {
