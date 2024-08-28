@@ -13,7 +13,7 @@ body {
     margin: auto;
 }
 
-.titles{
+.titles {
     color: rgb(106, 9, 133);
     font-weight: 300;
     margin: 0;
@@ -29,6 +29,10 @@ footer {
     padding: 20px;
     text-align: center;
     background: rgb(253, 247, 255);
+}
+
+footer p{
+    text-align: center;
 }
 
 
@@ -69,7 +73,7 @@ footer {
     z-index: 1;
 }
 
-.about p{
+.about p {
     text-align: justify;
 }
 
@@ -124,12 +128,13 @@ footer {
 
 /* ----------------------- EXPERIENCE ---------------------------- */
 
-.accordion-body p{
+.accordion-body p {
     text-align: justify;
 }
 
-.accordion-body h4, h5,h6 {
+.accordion-body h4,h5,h6,p {
     text-align: left;
+    color: rgb(106, 9, 133);
 }
 
 .accordion {
@@ -137,26 +142,37 @@ footer {
     --bs-accordion-btn-focus-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(171, 56, 209);
     --bs-accordion-btn-color: rgb(106, 9, 133);
     --bs-accordion-btn-focus-bg: rgb(219, 171, 233);
-
 }
 
 .accordion-button:not(.collapsed) {
     background-color: rgb(248, 234, 253);
+    color: rgb(106, 9, 133);
 }
+
+.job {
+    color: rgb(106, 9, 133);
+}
+
 /* ----------------------- SKILLS ---------------------------- */
 
-.col .logo img{
+.logo img {
     height: 150px;
 }
 
-/* ------------------- PROJECTS -------------------------------*/ 
+.logo p{
+    text-align: center;
+}
 
+/* ------------------- PROJECTS -------------------------------*/
+.card-body h5{
+text-align: center;
+}
 
 /* ------------------------ CONTACT ------------------------------- */
 .contact {
     display: flex;
     flex-direction: column;
- 
+
 }
 
 .custom {
@@ -183,16 +199,20 @@ footer {
     z-index: 1;
 }
 
+.btn-primary{
+    --bs-btn-active-bg:rgb(116, 57, 136);
+}
+
 /*------------------------- MEDIA -------------------------------------*/
 .media {
     border-radius: 5px;
     margin: 5px;
     margin-bottom: 10px;
     z-index: 1;
-    display: flex;  
+    display: flex;
 }
 
-.ratio{
+.ratio {
     margin: 20px;
 }
 
@@ -204,7 +224,7 @@ footer {
 
 /* ------------------------ FOOTER -------------------------------- */
 
-.col img{
+.col img {
     height: 25px;
-    width: 25px;  
+    width: 25px;
 }
