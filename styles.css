@@ -147,24 +147,20 @@ p {
     height: 150px;
 }
 
-.col .logo p{
-    text-align: right;
-}
-
 .row img {
     height: 60px;
 }
 
-
 /* ----------------- EDUCATION ---------------------- */
-
-.ed{
-    color: #0a06eb;
-}
 .ed a{
      color: #0a06eb;
 }
 
+.row a,img{
+    height:60px;
+    width: auto;
+    align-items: left;
+}
 
 /* ------------------- PROJECTS -------------------------------*/
 .card-body h5 {
@@ -172,15 +168,19 @@ p {
 }
 
 /* ---------------------CERTIFICATIONS --------------------------*/
-/* .row h5 {
-    color: #0000EE
-} */
+
 
 /* .row .ed a {
     text-decoration: none;
     color: rgb(130, 209, 56);
 } */
 
+
+/* -------------------------- PORTFOLIO ---------------------------*/
+.card img{
+    height:250px;
+    width: auto;
+}
 /* ------------------------ CONTACT ------------------------------- */
 .contact {
     display: flex;
